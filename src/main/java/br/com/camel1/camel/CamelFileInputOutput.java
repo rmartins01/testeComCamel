@@ -6,9 +6,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Camel1 extends RouteBuilder {
+public class CamelFileInputOutput extends RouteBuilder {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(Camel1.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(CamelFileInputOutput.class);
 	
 	@Override
 	public void configure() throws Exception {
